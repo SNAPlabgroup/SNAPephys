@@ -10,8 +10,8 @@
 clear all; close all hidden; clc; %#ok<CLALL>
 
 try
-    % Loading random generator seed and state so that anything generate
-    % randomly with be regenerated with the same realization everytime
+    % Loading random generator seed and state so that anything generated
+    % randomly will be regenerated with the same realization everytime
     load('s.mat');
     rng(s);
     
